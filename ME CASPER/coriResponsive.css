@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        display: none; /* Hide menu by default on small screens */
+    }
+
+    .nav-menu.active {
+        display: flex; /* Show menu when active class is added (e.g., on button click) */
+    }
+
+    .cta-button {
+        display: block;
+        margin-top: 10px;
+    }
+}
